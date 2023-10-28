@@ -13,13 +13,13 @@ while True:
 
     # Imprime el resultado según las condiciones dadas
     if promedio < 3:
-        print("El estudiante reprobó.")
+        print(f"El estudiante reprobó. Nota {promedio}")
     elif promedio >= 3 and promedio < 4:
-        print("El estudiante aprobó con el mínimo permitido.")
+        print(f"El estudiante aprobó con el mínimo permitido. Nota {promedio}")
     elif promedio >= 4 and promedio < 5:
-        print("El estudiante aprobó con buen promedio.")
+        print(f"El estudiante aprobó con buen promedio. Nota {promedio}")
     else:
-        print("El estudiante aprobó con excelencia.")
+        print(f"El estudiante aprobó con excelencia. Nota {promedio}")
 
     # Pregunta al usuario si desea calcular las notas de otro estudiante o finalizar el programa
     opcion = input("¿Desea calcular las notas de otro estudiante? (s/n): ")

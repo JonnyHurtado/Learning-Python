@@ -1,0 +1,3 @@
+squares = [1,4,9,16,25] #Definicipon de la lista en la variable square
+print(squares) #Imprimer la lista completa
+print(squares[1:-1]) #Imprimer la lista desde el registro 1 hasta el registro antes de -1 (último)
